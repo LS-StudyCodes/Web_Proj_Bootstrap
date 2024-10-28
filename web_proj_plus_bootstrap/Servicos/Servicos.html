@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urso Polar - Serviços</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../utils/generic_styles.css">
+  <link rel="stylesheet" href="servicos_style.css">
+  <link rel="stylesheet" href="../utils/navbar/navbar.css">
+  <link rel="stylesheet" href="../utils/footer/footer.css">
+</head>
+<body>
+
+  <div id="navbar_placeholder"></div>
+  <script>
+    fetch('../utils/navbar/navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar_placeholder').innerHTML = data;
+    });
+  </script>
+
+   <section class="py-5" id="guia-turistico">
+    <section class="py-5" id="servico1">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h2>Guias e passeios turísticos</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus ipsum, semper non luctus id, fermentum et quam.</p>
+              <a href="../Vendas/Vendas.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="../images/freepik__candid-image-photography-natural-textures-highly-r__67577.jpeg" alt="Guia turistico" class="img-fluid service-image rounded shadow">
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="bg-light py-5">
+        <div class="container text-center">
+          <h2>Explorando paisagens incríveis e memoráveis!</h2>
+          <div class="row mt-4">
+            <div class="col-md-3">
+              <h3>245.341</h3>
+              <p>pessoas já visitaram</p>
+            </div>
+            <div class="col-md-3">
+              <h3>1.328</h3>
+              <p>pontos túristicos</p>
+            </div>
+            <div class="col-md-3">
+              <h3>411</h3>
+              <p>guias altamente qualificados</p>
+            </div>
+            <div class="col-md-3">
+              <h3>+ 1.000.000</h3>
+              <p>de curtidas no instagram</p>
+            </div>
+          </div>
+        </div>
+      </section>
+   </section>
+
+=   <section class="py-5" id="aluguel-roupas-neve">
+    <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+              <img src="https://img.freepik.com/fotos-gratis/cena-de-inverno-com-pessoas-fazendo-snowboard_23-2151472576.jpg?t=st=1729202767~exp=1729206367~hmac=df167bddb1a12f8bae5c45b12a4d6b63a74db9ceb5350afb232db0472ae7ab6a&w=1060" alt="Equipamentos de neve" class="img-fluid service-image rounded shadow">
+            </div>
+            <div class="col-md-6">
+              <h2>Aluguel de equipamentos de neve</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt exercitationem veritatis eligendi, nulla repudiandae ab excepturi. Esse quae dolores ratione voluptates suscipit obcaecati nemo provident doloribus nobis, mollitia delectus?</p>
+              <a href="../Vendas/Vendas.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <blockquote>
+                <p>"Atendimento caloroso e impecável, minhas dúvidas e problemas foram solucionados de maneira muito rápida e por atendentes extremamente carismáticos. Além de todos os equipamentos estarem em ótimas condições e serem de qualidade!"</p>
+                <footer>— Homem das Neves, Turista</footer>
+              </blockquote>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="../images/polar-bear_12388178.png" alt="Logo" class="img-fluid logo-quote rounded-circle shadow">
+            </div>
+          </div>
+        </div>
+      </section>
+   </section>
+
+  <section class="py-5" id="aluguel-motoneve">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Aluguel de moto neve</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias, praesentium amet ipsum dolor laborum exercitationem, error accusamus tenetur deserunt nam esse dignissimos culpa hic nemo quo, atque fuga iusto!</p>
+          <a href="../Vendas/Vendas.html" class="btn btn-primary">Saiba mais</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="../images/freepik__candid-image-photography-natural-textures-highly-r__70027.jpeg" alt="Service 3" class="img-fluid service-image rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer_placeholder"></div>
+  <script>
+    fetch('../utils/footer/footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer_placeholder').innerHTML = data;
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
