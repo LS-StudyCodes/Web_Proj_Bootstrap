@@ -1,0 +1,33 @@
+.social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    margin: 0 15px;
+    font-size: 2rem;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; 
+  }
+
+  .info-contato {
+    padding: 64px 0;
+  }
+
+  .info-contato h2 {
+    font-size: 2rem;
+  }
+  
+  .info-contato p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .social-container {
+    padding-bottom: 64px;
+  }
+  
